@@ -1,0 +1,438 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine&family=Dosis:wght@300&family=Fira+Sans:ital,wght@1,300&family=Inter:wght@300&family=PT+Sans+Narrow&family=Signika+Negative:wght@300&family=Source+Sans+Pro:wght@200&display=swap');
+
+.banner{
+    background-color: white;
+    overflow: hidden;
+}
+
+.banner .container1{
+    width: 100%;
+    padding: 30px 15px;
+    z-index: 2;
+    position: relative;
+    background-color: #665cf3;
+    height: 40vw;
+}
+
+.banner .row{
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+    padding: 0px;
+    background-color: transparent;
+}
+
+.row .container{
+    width: 100%;
+    padding: 30px 15px;
+    z-index: 2;
+    position: relative;
+}
+
+.row .container .col{
+    width: 100%;
+    max-width: 1240px;
+    margin: 0px auto;
+}
+
+.row .container .col .content{
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    margin: 0px auto;
+    max-width: 1240px;
+}
+
+.container .col .content .col-1 {
+    width: 30%;
+    align-self: flex-start;
+    margin-top: 100px;
+}
+ .col .content .col-1 .col-a{
+    margin: 0px auto;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    display: contents;
+}
+
+.col .content .col-1 .col-a h1{
+    font-size: 4rem;
+    font-weight: 600;
+    text-align: left;
+    background-image: linear-gradient(310deg,#2152ff,#21d4fd);
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 4rem;
+    font-family: 'Domine', serif;
+}
+.col .content .col-1 .col-a h2{
+    font-size: 3rem;
+    font-weight: 400;
+    padding-top: 10px;
+    background-image: linear-gradient(310deg,#2152ff,#21d4fd);
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: 'Domine', serif;
+}
+
+.container .col .content .col-2{
+    width: 70%;
+}
+
+.col .content .col-2 .a{
+    position: relative;
+    width: 80%;
+    height: 500px;
+    top: -50px;
+    display: block;
+    border: 1px solid #91fa08;
+    left: 200px;
+    border-radius: 3px;
+}
+
+.col .content .col-2 .b{
+    position: absolute;
+    border: 1px solid #91fa08;
+    width: 100%;
+    height: 440px;
+    margin: 10px;
+    top: 30px;
+    margin-left: -40px;
+    border-radius: 3px;
+}
+
+.img-container{
+    position: absolute;
+    left: 60px;
+    width: 90%;
+    margin: 10px;
+    margin-left: -6px;
+    top: 10px;
+}
+
+.col .content .col-2 .col-b{
+
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    margin-left: 10rem;
+    margin-top: 10rem;
+}
+
+
+/*-----------------------------------------------------*/
+.row2{
+    margin: 0px auto;
+    max-width: 1240px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 50px;
+}
+
+
+ h1{
+    font-size: 32px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    position: relative;
+    color: #173b6c;
+}
+
+ h1::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #149ddd;
+    bottom: 0;
+    left: 0;
+}
+
+ p{
+    font-size: 1rem;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    color: #173b6c;
+    width: 300%;
+}
+
+.row3{
+    margin: 0px auto;
+    max-width: 1240px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 50px;
+}
+
+.row3 .col-a img{
+    width: 100%;
+}
+.row3 .col-b img{
+    width: 50%;
+}
+
+.row3 .col-d {
+    display: flex;
+    flex-direction: row;
+    gap: 220px;
+}
+
+.row3 .col-b p{
+    width: 100%;
+}
+
+ li{
+    font-size: 32px;
+    font-weight: bold;
+    background-image: linear-gradient(310deg,#2152ff,#21d4fd);
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: 'Domine', serif;
+    padding-top: 20px;
+}
+.row3 .col-d span{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #173b6c;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.col-4{
+    margin-top: 100px;
+}
+
+.col-4 .col-b{
+    display: flex;
+    flex-direction: row;
+    gap: 280px;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.col-4 .col-b h2{
+    margin-top: -50px;
+    margin-left: 50px;
+    font-size: 3rem;
+    color: #665cf3;
+}
+.col-4 .col-b span{
+    font-size: 2.5rem;
+    display: inline-block;
+    color: #149ddd;
+    width: 44px;
+    height: 44px;
+    background: #dff3fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.5s ease-in-out;
+}
+.col-4 .col-b span:hover{
+    background-color: #149ddd;
+    color: white;
+}
+
+.col-4 .col-b p{
+    font-size: 1rem;
+    color: #173b6c;
+    margin-left: 50px;
+}
+
+/*-----------------*/
+.col-5{
+    margin-top: 100px;
+}
+
+.col-5 .col-b{
+    display: flex;
+    flex-direction: row;
+    gap: 250px; 
+    width: 150%;
+}
+
+.col-5 .col-b .col-1{
+    width: 30%;
+}
+
+.col-5 .col-b .col-2{
+    width: 30%;
+}
+
+.col-5 .col-b h2{
+    font-size: 32px;
+    font-weight: bold;
+    background-image: linear-gradient(310deg,#2152ff,#21d4fd);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: 'Domine', serif;
+    padding-top: 20px;
+}
+
+/*-----------------*/
+.col-6{
+    margin-top: 100px;
+}
+
+.col-6 .col-b{
+    display: flex;
+    flex-direction: row;
+    gap: 230px;
+    justify-content: space-between; 
+}
+
+.col-6 .col-b h4{
+    margin-left: 10px;
+    font-size: 1rem;
+    color: #665cf3;
+  }
+
+
+/*-----------------*/
+.col-7{
+    margin-top: 100px;
+}
+
+.col-7 .col-b{
+    display: flex;
+    flex-direction: row;
+    gap: 10px; 
+}
+
+.col-7 .col-b li{
+    list-style: none;
+    margin-top: -70px;
+    margin-left: 50px;
+}
+
+.col-7 .col-b .col-a{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.col-7 .col-b .col-a .col-1{
+    display: inline;
+    width: 100%;
+}
+
+.col-7 .col-b .col-a .col-2{
+    display: inline;
+    width: 100%;
+}
+
+.col-7 .col-b .col-a .col-3{
+    display: inline;
+    width: 100%;
+}
+
+.col-7 .col-b .col-a p{
+    padding-left: 50px;
+}
+
+.col-7 .col-b .col-a i{
+    font-size: 1.5rem;
+    display: inline-block;
+    color: #149ddd;
+    width: 44px;
+    height: 44px;
+    background: #dff3fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.5s ease-in-out;
+}
+.col-7 .col-b .col-a i:hover{
+    background-color: #149ddd;
+    color: white;
+}
+
+.login-page {
+    width: 360px;
+    padding: 8% 0 0;
+    margin: auto;
+    margin-left: 360px;
+    margin-top: -60px;
+  }
+
+  .login-page .form .login{
+    margin-top: -50px;
+    margin-bottom: 26px;
+  }
+
+  .form {
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+  }
+
+  .form input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 200%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+
+
+  .form button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background-image: linear-gradient(310deg,#2152ff,#21d4fd);
+    width: 200%;
+    height: 40px;
+    border-radius: 2px;
+    border: none;
+    padding: 5px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;margin-top: 12px;
+  }
+
+  .login-form .message {
+    font-family: "Roboto", sans-serif;
+    background: #f2f2f2;;
+    border: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    padding: 3px;
+  }
+
+  .login-page h3{
+    font-weight: bold;
+    background-image: linear-gradient(310deg,#2152ff,#21d4fd);
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: 'Domine', serif;
+  }
+
+ 

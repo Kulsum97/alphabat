@@ -1,0 +1,116 @@
+
+.container1{
+  padding-top: 5px;
+  padding-bottom: 100px;
+}
+
+.container1 .row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 70px;
+}
+
+.container1 .row .card-body{
+  border: 0.1rem solid #149ddd3c;
+  margin-top: 3rem;
+}
+.container1 .row .card-body .col{
+  padding: 2rem;
+}
+.container1 .row .card-body .col span{
+  font-size: 2rem;
+  color: #149ddd;
+}
+
+.btn{
+  font-size: 14px; 
+  font-family: 'Roboto', sans-serif;
+  color: #149ddd;
+}
+
+
+.banner{
+   margin-top: 2rem;
+   margin-bottom: 2rem;
+   background-color: rgb(255, 255, 255);
+ }
+
+
+ .banner .col-a h3{
+  display: flex;
+  -webkit-box-align: center;
+  text-align: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 24px;
+  background-image: linear-gradient(310deg,#2152ff,#21d4fd);
+  -webkit-text-fill-color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  letter-spacing: 1px;
+  padding: 20px 0px;
+}
+
+  
+.banner .row{
+  position: relative;
+  overflow: hidden;
+ }
+
+ .banner .row .col{
+  width: calc(100vw - 0px);
+ }
+
+ .banner .row .col .container{
+  border-radius: 4px;
+  box-shadow: rgb(0 0 0 / 20%) 0px 2px 4px 0px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+ }
+
+ .img-container{
+  object-fit: contain;
+  width: 30%;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+ }
+
+
+ .line{
+  width: 2px;
+  height: 218px;
+  border: 1px solid rgb(229, 229, 229);
+ }
+
+
+ .content{
+  width: 70%;
+  padding-left: 25px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  letter-spacing: 0px;
+ }
+
+
+ .content .col-a{
+  font-size: 13px;
+  line-height: 24px;
+  color: rgb(51, 51, 51);
+  font-family: 'Roboto', sans-serif;
+  padding: 10px;
+ }
+
+
+ .content .col-b{
+  width: 100%;
+  padding-top: 30px;
+  padding-left: 10px;
+ }

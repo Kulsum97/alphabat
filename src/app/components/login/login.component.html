@@ -1,0 +1,50 @@
+<div class="container">
+    <div class="row">
+        <div class="col-1">
+            <div class="card">
+                <div class="card-body">
+                    <div class="text">
+                        <h2>Welcome</h2>
+                        <p>
+
+                            Create a new acount <br>
+
+                            OR Sign in with these credentials: <br>
+
+                            Email <span style="color: rgb(69, 69, 69);"> admin@muskan.com</span><br>
+
+                            Password <span style="color: rgb(69, 69, 69);">admin@123</span>
+                        </p>
+
+                    </div>
+
+                    <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Email" class="form-control"
+                                formControlName="email" name="email" />
+                        </div>
+                        <div class="form-group">
+                            <input type="password" id="password" placeholder="Password" class="form-control"
+                                formControlName="password" name="password" />
+                        </div>
+                        <input type="submit" class="btn" value="Login" name="">
+                    </form>
+                </div>
+                <div class="card-footer">
+                    <small><a routerLink="../forgot-password">Forgot you password? Reset you password <span style="background-image: linear-gradient(310deg,#2152ff,#21d4fd);-webkit-text-fill-color:transparent;-webkit-background-clip: text;background-clip: text;">here</span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Don't have an account?<span style="background-image: linear-gradient(310deg,#2152ff,#21d4fd);-webkit-text-fill-color:transparent;-webkit-background-clip: text;background-clip: text;">Sign up</span></a></small>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-2">
+            <div class="container2">
+                <div class="img-container">
+                    <img [src]= "urlink" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+  
